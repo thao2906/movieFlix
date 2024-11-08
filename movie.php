@@ -64,13 +64,13 @@
                                                     <li><a href="index-2.html">Home Two</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="#">Movie</a>
+                                            <li class="active menu-item-has-children"><a href="#">Movie</a>
                                                 <ul class="submenu">
-                                                    <li><a href="movie.html">Movie</a></li>
+                                                    <li class="active"><a href="movie.html">Movie</a></li>
                                                     <li><a href="movie-details.html">Movie Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="active"><a href="tv-show.html">tv show</a></li>
+                                            <li><a href="tv-show.html">tv show</a></li>
                                             <li><a href="pricing.html">Pricing</a></li>
                                             <li class="menu-item-has-children"><a href="#">blog</a>
                                                 <ul class="submenu">
@@ -150,16 +150,16 @@
         <main>
 
             <!-- breadcrumb-area -->
-            <section class="breadcrumb-area breadcrumb-bg" data-background="img/banner/banner_bg01.jpg">
+            <section class="breadcrumb-area breadcrumb-bg" data-background="img/bg/breadcrumb_bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="breadcrumb-content">
-                                <h2 class="title">Tv <span>Show</span></h2>
+                                <h2 class="title">Our <span>Movie</span></h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Tv show</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Movie</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -170,13 +170,13 @@
             <!-- breadcrumb-area-end -->
 
             <!-- movie-area -->
-            <section class="movie-area movie-bg" data-background="img/bg/banner_bg01.jpg">
+            <section class="movie-area movie-bg" data-background="img/bg/movie_bg.jpg">
                 <div class="container">
                     <div class="row align-items-end mb-60">
                         <div class="col-lg-6">
                             <div class="section-title text-center text-lg-left">
                                 <span class="sub-title">ONLINE STREAMING</span>
-                                <h2 class="title">New Tv Show</h2>
+                                <h2 class="title">New Release Movies</h2>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -201,7 +201,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo1.webp" alt="">
+                                    <img src="img/poster/anh-trai-vuot-moi-tam-tai-x500.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -216,7 +216,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Xác Sống: Daryl Dixon </a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Anh Trai Vượt Mọi Tam Tai</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -234,7 +234,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo2.webp" alt="">
+                                    <img src="img/poster/deadpool-va-wolverine-x350.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -249,7 +249,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Brewing Love</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Deadpool Và Wolverine</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -267,7 +267,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo3.webp" alt="">
+                                    <img src="./img/poster/vay-ham-tren-khong-x350.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -282,7 +282,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Sơ Nhan</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Vây Hãm Trên Không</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -300,7 +300,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo4.webp" alt="">
+                                    <img src="img/poster/tieng-yeu-khong-loi-x350.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -315,7 +315,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Vẫn Rất Yêu Cô Ấy</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Tiếng Yêu Không Lời</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -333,7 +333,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-two">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo5.webp" alt="">
+                                    <img src="img/poster/bong-dung-trung-manh-x500.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -348,7 +348,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Thám Tình An</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Bỗng Dưng Trúng Mánh</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -366,7 +366,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-two">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo7.webp" alt="">
+                                    <img src="img/poster/bay-nuot-mang-x350.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -381,7 +381,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Hôn Nhân Hạnh Phúc Của Tôi</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Bẫy Nuốt Mạng</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -399,7 +399,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo8.webp" alt="">
+                                    <img src="img/poster/hanh-tinh-khi-vuong-quoc-moi-x350.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -414,7 +414,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Rèm Ngọc Châu Sa</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Hành Tinh Khỉ: Vương Quốc Mới</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -432,7 +432,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 grid-item grid-sizer cat-one cat-two">
                             <div class="movie-item movie-item-three mb-50">
                                 <div class="movie-poster">
-                                    <img src="img/poster/bo9.webp" alt="">
+                                    <img src="img/poster/nhung-ke-theo-doi-x350.webp" alt="">
                                     <ul class="overlay-btn">
                                         <li class="rating">
                                             <i class="fas fa-star"></i>
@@ -447,7 +447,7 @@
                                 </div>
                                 <div class="movie-content">
                                     <div class="top">
-                                        <h5 class="title"><a href="movie-details.html">Vòng Lặp Chết Chóc</a></h5>
+                                        <h5 class="title"><a href="movie-details.html">Những Kẻ Theo Dõi</a></h5>
                                         <span class="date">2021</span>
                                     </div>
                                     <div class="bottom">
@@ -585,10 +585,6 @@
             </div>
         </footer>
         <!-- footer-area-end -->
-
-
-
-
 
 		<!-- JS here -->
         <script src="js/vendor/jquery-3.6.0.min.js"></script>
