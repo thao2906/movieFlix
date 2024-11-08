@@ -1,4 +1,31 @@
-        <!-- header-area -->
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Movfix - Online Movies & TV Shows Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/odometer.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+<!-- header-area -->
         <header>
             <div id="sticky-header" class="menu-area transparent-header">
                 <div class="container custom-container">
@@ -14,6 +41,15 @@
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-lg-flex">
                                         <ul class="navigation">
+                                            <?php
+                                                $tblTable = "danhmuc";
+                                                $data = $db->showlist($tblTable);
+                                                foreach ($data as $dt) {
+                                                  ?>
+                                                <li><a href=""><?php echo $dt['tendm'];?></a></li>
+                                           <?php
+                                                }
+                                                ?>
                                             <li class="active menu-item-has-children"><a href="#">Home</a>
                                                 <ul class="submenu">
                                                     <li class="active"><a href="index.html">Home One</a></li>
@@ -100,3 +136,20 @@
             </div>
         </header>
         <!-- header-area-end -->
+            <!-- preloader -->
+        <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <img src="img/preloader.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- preloader-end -->
+
+		<!-- Scroll-top -->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <!-- Scroll-top-end-->
+
+        <!-- main-area -->
