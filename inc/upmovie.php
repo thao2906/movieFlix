@@ -29,24 +29,12 @@
                         <div class="tab-pane fade show active" id="tvShow" role="tabpanel" aria-labelledby="tvShow-tab">
                             <div class="ucm-active owl-carousel">
 
-                                <?php 
-                                    // $sql_upmovie = "SELECT * FROM movies ORDER BY movie_id DESC";
-                                    // $result_upmovie = mysqli_query($conn, $sql_upmovie);
-                                    // echo $result_upmovie;
-                                    // if (($result_upmovie) > 0) {
-                                      // output data of each row
-                                    //   while($row_upmovie = $result_upmovie->fetch_assoc()) {
-                                    // while($row_upmovie = mysqli_fetch_assoc($result_upmovie)) {
-                                    
-                                    $sql_upmovie = "SELECT * FROM movies ORDER BY movie_id DESC";
-                                    $result_upmovie = $conn->query($sql_upmovie);
-                                    // if ($result_upmovie->num_rows > 0) {
-                                    // // output data of each row
-                                    // while($row_upmovie = $result_upmovie->fetch_assoc()) {
-
-                                ?>
-
-                                <div class="movie-item mb-50">
+                            <?php
+                                                $tblTable = "danhmuc";
+                                                $data = $db->showlist($tblTable);
+                                                foreach ($data as $dt) {
+                                                  ?>
+                                                     <div class="movie-item mb-50">
                                     <div class="movie-poster">
                                         <a href="movie-details.html"><img src=<?php echo $row_upmovie["img_phim"] ?>></a>
                                     </div>
@@ -66,11 +54,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                           <?php
+      }
+      ?>
+                           
                     
-                                <?php   }
-                                } else {
-                                echo "0 results";
-                                } ?>
                             </div>
                         </div>
                     </div>

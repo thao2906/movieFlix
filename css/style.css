@@ -239,6 +239,10 @@ label {
 	background: #7823df;
 }
 
+.download-btn img {
+    max-width: 24px;
+    transform: rotate(-90deg);
+}
 /* button style */
 .btn {
     user-select: none;
@@ -1635,6 +1639,7 @@ label {
 }
 .movie-details-img img {
     border-radius: 5px;
+    width: 100%;
 }
 .movie-details-content {
     margin-left: 23px;
