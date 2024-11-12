@@ -1,12 +1,12 @@
           <!-- up-coming-movie-area -->
-            <section class="ucm-area ucm-bg" data-background="img/bg/ucm_bg.jpg">
+          <section class="ucm-area ucm-bg" data-background="img/bg/ucm_bg.jpg">
                 <div class="ucm-bg-shape" data-background="img/bg/ucm_bg_shape.png"></div>
                 <div class="container">
                     <div class="row align-items-end mb-55">
                         <div class="col-lg-6">
                             <div class="section-title text-center text-lg-left">
                                 <span class="sub-title">ONLINE STREAMING</span>
-                                <h2 class="title">Upcoming Movies</h2>
+                                <h2 class="title">Phim Sắp Chiếu</h2>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -30,25 +30,26 @@
                             <div class="ucm-active owl-carousel">
 
                             <?php
-                                                $tblTable = "danhmuc";
+                                                $tblTable = "movies";
                                                 $data = $db->showlist($tblTable);
+                                               
                                                 foreach ($data as $dt) {
                                                   ?>
                                                      <div class="movie-item mb-50">
                                     <div class="movie-poster">
-                                        <a href="movie-details.html"><img src=<?php echo $row_upmovie["img_phim"] ?>></a>
+                                        <a href="movie-details.php"><img src=<?php echo $dt["img_url"] ?>></a>
                                     </div>
                                     <div class="movie-content">
                                         <div class="top">
-                                            <h5 class="title"><a href="movie-details.html"><?php echo $row_upmovie["title_phim"] ?> </a></h5>
-                                            <span class="date">2024</span>
+                                            <h5 class="title"><a href="movie-details.php"><?php echo $dt["title"] ?></a></h5>
+                                            <span class="date"><?php echo $dt["release_date"] ?></span>
                                         </div>
                                         <div class="bottom">
                                             <ul>
-                                                <li><span class="quality">HD</span></li>
+                                                <li><span class="quality"><?php echo $dt["quality"] ?></span></li>
                                                 <li>
-                                                    <span class="duration"><i class="far fa-clock"></i> 45 min</span>
-                                                    <span class="rating"><i class="fas fa-thumbs-up"></i> 4.0</span>
+                                                    <span class="duration"><i class="far fa-clock"></i> <?php echo $dt["duration"] ?></span>
+                                                    <span class="rating"><i class="fas fa-thumbs-up"></i> <?php echo $dt["rating"] ?></span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -57,8 +58,6 @@
                                            <?php
       }
       ?>
-                           
-                    
                             </div>
                         </div>
                     </div>

@@ -52,7 +52,7 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav show">
                                     <div class="logo">
-                                        <a href="index.html">
+                                        <a href="index.php">
                                             <img src="img/logo/logo.png" alt="Logo">
                                         </a>
                                     </div>
@@ -60,16 +60,16 @@
                                         <ul class="navigation">
                                             <li class="active menu-item-has-children"><a href="#">Home</a>
                                                 <ul class="submenu">
-                                                    <li class="active"><a href="index.html">Home One</a></li>
+                                                    <li class="active"><a href="index.php">Home One</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="#">Movie</a>
                                                 <ul class="submenu">
-                                                    <li><a href="movie.html">Movie</a></li>
-                                                    <li><a href="movie-details.html">Movie Details</a></li>
+                                                    <li><a href="movie.php">Movie</a></li>
+                                                    <li><a href="movie-details.php">Movie Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="tv-show.html">Tv show</a></li>
+                                            <li><a href="tv-show.php">Tv show</a></li>
                                             <li><a href="pricing.html">Pricing</a></li>
                                             <li class="menu-item-has-children"><a href="#">Blog</a>
                                                 <ul class="submenu">
@@ -77,7 +77,7 @@
                                                     <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">contacts</a></li>
+                                            <li><a href="contact.php">contacts</a></li>
                                         </ul>
                                     </div>
                                     <div class="header-action d-none d-md-block">
@@ -105,7 +105,7 @@
                                 <div class="close-btn"><i class="fas fa-times"></i></div>
 
                                 <nav class="menu-box">
-                                    <div class="nav-logo"><a href="index.html"><img src="img/logo/logo.png" alt="" title=""></a>
+                                    <div class="nav-logo"><a href="index.php"><img src="img/logo/logo.png" alt="" title=""></a>
                                     </div>
                                     <div class="menu-outer">
                                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->

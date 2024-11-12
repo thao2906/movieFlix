@@ -6,18 +6,18 @@
                         <div class="row align-items-center">
                             <div class="col-lg-3">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                                    <a href="index.php"><img src="img/logo/logo.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-lg-9">
                                 <div class="footer-menu">
                                     <nav>
                                         <ul class="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="index.html">Movie</a></li>
-                                            <li><a href="index.html">Tv Show</a></li>
-                                            <li><a href="index.html">Pages</a></li>
-                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="index.php">Home</a></li>
+                                            <li><a href="index.php">Movie</a></li>
+                                            <li><a href="index.php">Tv Show</a></li>
+                                            <li><a href="index.php">Pages</a></li>
+                                            <li><a href="pricing.php">Pricing</a></li>
                                         </ul>
                                         <div class="footer-search">
                                             <form action="#">
@@ -61,7 +61,7 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="copyright-text">
-                                <p>Copyright &copy; 2024. All Rights Reserved By <a href="index.html">FiveFlix</a></p>
+                                <p>Copyright &copy; 2024. All Rights Reserved By <a href="index.php">FiveFlix</a></p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
