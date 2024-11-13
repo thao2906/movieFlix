@@ -1429,7 +1429,7 @@ label {
 .tr-movie-menu-active button.active {
 	text-shadow: 0px 3px 24px rgba(228, 216, 4, 0.5);
 }
-.movie-item-row {
+ .movie-item-row {
     justify-content: space-between;
 }
 .movie-item-row .custom-col- {
@@ -1439,7 +1439,9 @@ label {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-}
+} 
+
+
 .movie-item-row .custom-col- .movie-item-two {
     margin-bottom: 45px;
 }

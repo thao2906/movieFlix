@@ -29,7 +29,7 @@
                         <div class="tab-pane fade show active" id="tvShow" role="tabpanel" aria-labelledby="tvShow-tab">
                             <div class="ucm-active-two owl-carousel">
 
-                                <div class="movie-item movie-item-two mb-30">
+                                
                                 <?php
                                                 $tblTable = "movies";
                                                 // $data = $db->showlist("SELECT * FROM $tblTable ORDER BY created_at DESC"); // Order by created_at in descending order
@@ -37,7 +37,7 @@
                                                
                                                 foreach ($data as $dt) {
                                                   ?>                     
-
+                                <div class="movie-item movie-item-two mb-30">
                                     <div class="movie-poster">
                                         <a href="movie-details.php"><img src=<?php echo $dt["img_url"] ?>></a>
                                     </div>
@@ -64,6 +64,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <?php
       }
       ?>                 
